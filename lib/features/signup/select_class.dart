@@ -29,17 +29,29 @@ class SelectClass extends StatelessWidget {
                             fontWeight: FontWeight.bold, fontSize: 20),
                       )),
                 ),
-                const PinkButton(
+                PinkButton(
                   buttonText: 'Class 1',
+                  onTap: () {
+                    Get.toNamed('selectboyorgirl');
+                  },
                 ),
-                const PinkButton(
+                PinkButton(
                   buttonText: 'Class 2',
+                  onTap: () {
+                    Get.toNamed('selectboyorgirl');
+                  },
                 ),
-                const PinkButton(
+                PinkButton(
                   buttonText: 'Class 3',
+                  onTap: () {
+                    Get.toNamed('selectboyorgirl');
+                  },
                 ),
-                const PinkButton(
+                PinkButton(
                   buttonText: 'Class 4',
+                  onTap: () {
+                    Get.toNamed('selectboyorgirl');
+                  },
                 ),
                 const Expanded(child: SizedBox()),
                 TextButton(
